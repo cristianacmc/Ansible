@@ -3,11 +3,10 @@ all:
     children:
       west:
         hosts:
-          172.31.34.236:
-          ansible_user: char
+          172.31.34.236
       east:
         hosts:
-          172.31.35.107:
+          172.31.35.107
       vms:
         children:
           west:
